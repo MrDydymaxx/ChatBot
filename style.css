@@ -40,7 +40,10 @@ body {
   height:100vh;
   background: #36393F;
 }
-chat {
+.conversation {
+  height:80vh;
+}
+.chat {
   height: 8vh;
 }
 .chat div span {
