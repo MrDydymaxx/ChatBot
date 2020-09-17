@@ -20,3 +20,33 @@ body {
   margin:2px;
   border:1.5px solid #f5f6fa;
 }
+.contact {
+  height:10vh;
+  align-items: center;
+}
+.contact-pic {
+  max-width:4vw;
+  height: auto;
+  margin:2px;
+  border:1.5px solid #f5f6fa;
+}
+.contact:hover {
+  background: #393C43;
+}
+.notification {
+  color:#6495ED;
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(200,200,200,1);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color:#202225;
+    -webkit-box-shadow: inset 0 0 6px rgba(90,90,90,0.7);
+}
