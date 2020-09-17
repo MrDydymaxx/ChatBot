@@ -9,6 +9,10 @@ A ChatBox is a Web Application or a software in which you can interact with bots
   * Contact's picture
   * Contact's name
   * Number of unread messages
+* Message box
+	* Header
+	* Messages received
+	* Messages sent
 
 ## Features description
 ###  Profile 
@@ -25,3 +29,11 @@ The contact picture is a picture to identify who are we talking to on the first 
 The contact's name is the name of your contact
 ##### Number of unread messages
 Each to a contact sends you a message, the number of unread messages will be incremented by one until you click on this contact
+### Message box
+The message box is the location where you can see your conversation with the current contact
+##### Header
+The header of the message box is where you can see the picture and the name of who you are talking to, to identify him
+##### Received messages
+Messages sent by the current contact
+##### Sent messages 
+Messages that you sent to the current contact
