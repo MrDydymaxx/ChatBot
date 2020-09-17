@@ -1,1 +1,22 @@
+@charset "utf-8";
 @import "reset.css";
+
+body {
+  color:white;
+  overflow: hidden;
+}
+.navigate {
+  height:100vh;
+  font-size:20px;
+  font-family: 'roboto', sans-serif;
+  background: #2F3136;
+}
+.profile {
+  height:40vh;
+  background: #202225;
+}
+.profile-pic {
+  max-height:15vw;
+  margin:2px;
+  border:1.5px solid #f5f6fa;
+}
