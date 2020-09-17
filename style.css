@@ -36,6 +36,68 @@ body {
 .notification {
   color:#6495ED;
 }
+.app {
+  height:100vh;
+  background: #36393F;
+}
+chat {
+  height: 8vh;
+}
+.chat div span {
+  color:white;
+  background: #40444B;
+}
+.chat-header {
+  height: 10vh;
+  background:#2F3136;
+  align-items: center;
+}
+.header-name {
+  font-size:40px;
+  font-family: 'roboto', sans-serif;
+}
+.img_cont_msg{
+      height: 40px;
+      width: 40px;
+}
+.msg_container, .msg_container_send {
+  padding: 10px;
+  padding-top:15px;
+  position: relative;
+  font-family: 'roboto', sans-serif;
+}
+.msg_container {
+  margin-left: 10px;
+  border-radius: 25px 25px 25px 0px;
+  background-color: #002366;
+}
+.msg_container_send {
+  margin-right: 10px;
+  border-radius: 25px 25px 0px 25px;
+  background-color: #0048BA;
+}
+.msg_time{
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  color: rgba(255,255,255,0.5);
+  font-size: 10px;
+}
+.msg_name{
+  position: absolute;
+  left: 20px;
+  top:2px;
+  color: rgba(255,255,255,0.5);
+  font-size: 10px;
+}
+.user_img_msg{
+    height: 40px;
+    width: 40px;
+    border:1.5px solid #f5f6fa;
+}
+.new-message {
+  margin:10px;
+}
 ::-webkit-scrollbar {
     width: 12px;
 }
