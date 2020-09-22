@@ -2,7 +2,7 @@ function myFunction() {
   var message = document.querySelector(".form-control").value;
   console.log(message);
 
-document.querySelector(".conversation").insertAdjacentHTML('beforeend','<div class="d-flex justify-content-end mb-4 new-message">'+
+	document.querySelector(".conversation").insertAdjacentHTML('beforeend','<div class="d-flex justify-content-end mb-4 new-message">'+
       		'<div class="msg_container_send">'+
             	'<span class="msg_name">Panda</span>'+
             	'<span>'+ message +'</span>'+
@@ -12,5 +12,6 @@ document.querySelector(".conversation").insertAdjacentHTML('beforeend','<div cla
             	'<img src="https://static.thenounproject.com/png/67331-200.png" class="rounded-circle user_img_msg" />'+
             '</div>'+
            '</div>');
+	botAnswers(message);
 
 }
