@@ -1,7 +1,3 @@
-// var counterDiablo = document.querySelector(".notification");
-// var initialNumberCounter = counterDiablo.textContent;
-// console.log(initialNumberCounter);
-
 var characters = {};
 characters['diablo'] = 0;
 characters['sram'] = 0;
@@ -13,7 +9,7 @@ characters['anaamari'] = 0;
 
 var name = "terrorist";
 
-unefonctionpourlemessage(name);
+needIncrementation(name);
 
 function incrementeCounterOf(name){
   characters[name] = characters[name] +1;
@@ -21,7 +17,7 @@ function incrementeCounterOf(name){
 }
 
 
-function unefonctionpourlemessage(name){
+function needIncrementation(name){
   incrementeCounterOf(name);
 }
 
@@ -33,7 +29,7 @@ window.onload = function(){
     document.querySelector('.squirtle').innerHTML = characters['squirtle'];
     document.querySelector('.firekeeper').innerHTML = characters['firekeeper'];
     document.querySelector('.anaamari').innerHTML = characters['anaamari'];
-    console.log(characters['diablo']);
+    console.log(characters['.diablo']);
 };
 
 
