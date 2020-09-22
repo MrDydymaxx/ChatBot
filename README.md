@@ -1,6 +1,7 @@
 # ChatBot
 ## Context
 A ChatBox is a Web Application or a software in which you can interact with bots by discussing with them and waiting for their response
+
 ## Features summary
 * Profile
   * Profile picture
@@ -46,3 +47,12 @@ The input bar where you will write the message that you are willing to send
 Press this button to instantly send a message with what's written inside of the input bar
 ##### Input bar
 The text bar in which you have to write your message before sending it
+
+## chatbot keyword
+* weather
+* Coder
+* Nemo
+* Genre
+* Mexique
+* Tryhard
+* Noir
