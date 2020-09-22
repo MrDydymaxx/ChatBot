@@ -10,10 +10,13 @@ for (var i = 0; i < bot["bot"].length; i++) {
 
 		document.querySelector(".conversation").insertAdjacentHTML('beforeend','<div class="d-flex justify-content-start mb-4 new-message">' +
             '<div class="img_cont_msg">' +
-              '<img src="https://www.lolrift.com/img/champion/tiles/Velkoz_0.jpg" class="rounded-circle user_img_msg" />'+
+              '<img src=" '+ bot['bot'][i]['picture'] +' " class="rounded-circle user_img_msg" />'+
             '</div>' +
             '<div class="msg_container">' +
-              '<span class="msg_name">Vel\'koz</span>' +
+              '<span class="msg_name">' +
+              bot["bot"][i]["answers"][0]['firstName'] + 
+              ' ' + bot["bot"][i]["answers"][0]['lastName'] + 
+              '</span>' +
               '<span>' +
               bot["bot"][i]["answers"][0][message] +
               '</span>' +
