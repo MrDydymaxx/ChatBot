@@ -3,5 +3,22 @@ var text = '{"bot" : [{"answers": [{"weather":"il fait chaud","firstName":"Anna"
 var bot = JSON.parse(text);
 console.log(bot);
 for (var i = 0; i < bot["bot"].length; i++) {
-  console.log(bot["bot"][i]["answers"][0][message]);
+	if (bot["bot"][i]["answers"][0][message] != undefined) {
+		console.log(bot["bot"][i]["answers"][0][message]);
+    var div = document.createElement("div");
+
+
+		document.querySelector(".conversation").insertAdjacentHTML('beforeend','<div class="d-flex justify-content-start mb-4 new-message">' +
+            '<div class="img_cont_msg">' +
+              '<img src="https://www.lolrift.com/img/champion/tiles/Velkoz_0.jpg" class="rounded-circle user_img_msg" />'+
+            '</div>' +
+            '<div class="msg_container">' +
+              '<span class="msg_name">Vel\'koz</span>' +
+              '<span>' +
+              bot["bot"][i]["answers"][0][message] +
+              '</span>' +
+              '<span class="msg_time">9:12 AM, Today</span>' +
+            '</div>' +
+          '</div>');
+	}
 }
