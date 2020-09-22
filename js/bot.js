@@ -21,6 +21,6 @@ function botAnswers(message) {
               '<span class="msg_time">9:12 AM, Today</span>' +
             '</div>' +
           '</div>');
+    }
   }
-}
 }

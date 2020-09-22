@@ -12,6 +12,7 @@ function myInput() {
             '</div>'+
            '</div>');
 	botAnswers(message);
+	document.querySelector(".form-control").value = "";
 }
 
 var send = document.querySelector(".form-control");
