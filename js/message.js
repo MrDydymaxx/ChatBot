@@ -1,6 +1,5 @@
 function myInput() {
   var message = document.querySelector(".form-control").value;
-
 	document.querySelector(".conversation").insertAdjacentHTML('beforeend','<div class="d-flex justify-content-end mb-4 new-message">'+
       		'<div class="msg_container_send">'+
             	'<span class="msg_name">Panda</span>'+
@@ -14,9 +13,7 @@ function myInput() {
 	botAnswers(message,data);
 	document.querySelector(".form-control").value = "";
 }
-
 var send = document.querySelector(".form-control");
-
 send.addEventListener("keyup", function(event) {
   if (event.key === "Enter") {
     event.preventDefault();
