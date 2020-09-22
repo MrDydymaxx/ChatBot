@@ -1,6 +1,8 @@
 function botAnswers(message,data) {
   for (var i = 0; i < bot["bot"].length; i++) {
     if (bot["bot"][i]["answers"][0][message] != undefined) {
+      name = bot["bot"][i]["class"];
+      needIncrementation(name, i);
       document.querySelector(".conversation").insertAdjacentHTML('beforeend','<div class="d-flex justify-content-start mb-4 new-message">' +
             '<div class="img_cont_msg">' +
               '<img src=" '+ bot['bot'][i]['picture'] +' " class="rounded-circle user_img_msg" />'+
