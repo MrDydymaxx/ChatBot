@@ -104,3 +104,12 @@ body {
 .scroller {
   overflow-y: scroll;
 }
+.app svg {
+  height: 30px;
+  width: 30px;
+}
+button {
+    background-color: #2e3236;
+    border: 1px solid #2e3236;
+    color: #eee;
+}
