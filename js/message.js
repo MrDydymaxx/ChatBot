@@ -1,4 +1,4 @@
 function myFunction() {
-  var message = document.getElementById("input-control").value;
+  var message = document.querySelector(".form-control").value;
   console.log(message);
 }
