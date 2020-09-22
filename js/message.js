@@ -11,7 +11,7 @@ function myInput() {
             	'<img src="https://static.thenounproject.com/png/67331-200.png" class="rounded-circle user_img_msg" />'+
             '</div>'+
            '</div>');
-	botAnswers(message);
+	botAnswers(message,data);
 	document.querySelector(".form-control").value = "";
 }
 
